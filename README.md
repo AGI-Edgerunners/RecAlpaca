@@ -1,7 +1,7 @@
 # RecAlpaca
 # 🎬🦙 RecAlpaca: Low-Rank LLaMA Instruct-Tuning for Recommendation.
 
-This repository contains code for instruction tuning the [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) model using the MovieLens 100K dataset.
+This repository contains code for instruction tuning the [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) model with the MovieLens 100K dataset.
 We provide an Instruct model of similar quality to GPT-3.5 (such as ChatGPT) and the code can be easily extended to the `13b`, `30b`, and `65b` models.
 
 We used the setup, training, and inference procedures described in [Alpaca-LoRA](https://github.com/tloen/alpaca-lora).
