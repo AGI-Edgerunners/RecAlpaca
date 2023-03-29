@@ -88,6 +88,7 @@ python generate.py \
 
 ### Example outputs
 
+***
 **Example 1**:
 
 
@@ -103,6 +104,7 @@ Output:
 
 One recommendation from the MovieLens 100K dataset is The Sixth Sense. The recommendation reason is that it shares similar themes of horror and suspense with Scream and The Craft. Additionally, it has received high ratings from users who enjoyed these movies.
 
+***
 **Example 2**:
 
 Instruction:
@@ -117,6 +119,7 @@ Output:
 
 One recommendation from the MovieLens 100K dataset is The Man Who Wasn't There. The recommendation reason is that The Man Who Wasn't There has a similar tone and style to Jackie Brown and In & Out, with a focus on dark humor and quirky characters.
 
+***
 
 ### Citation
 
