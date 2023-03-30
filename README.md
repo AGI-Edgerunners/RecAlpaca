@@ -1,7 +1,7 @@
 # RecAlpaca
 # 🎬🦙 RecAlpaca: Low-Rank LLaMA Instruct-Tuning for Recommendation.
 
-This repository contains code for instruction tuning the [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) model with the MovieLens 100K dataset.
+This repository contains code for instruction tuning the [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) model using the MovieLens 100K dataset.
 We provide an Instruct model of similar quality to GPT-3.5 (such as ChatGPT) and the code can be easily extended to the `13b`, `30b`, and `65b` models.
 
 We used the setup, training, and inference procedures described in [Alpaca-LoRA](https://github.com/tloen/alpaca-lora).
@@ -34,7 +34,7 @@ This file contains a straightforward application of PEFT to the LLaMA model,
 as well as some code related to prompt construction and tokenization.
 PRs adapting this code to support larger models are always welcome.
 
-The ml_100k_instruct_data.json file contains preprocessed instruction data from the MovieLens 100K dataset. In contrast, the alpaca_data_with_ml100k.json file includes a combination of general instruction data from the Stanford Alpaca repository and the preprocessed instruction data from ml_100k_instruct_data.json related to the MovieLens 100K dataset.
+The `ml_100k_instruct_data.json` file contains preprocessed instruction data from the MovieLens 100K dataset. In contrast, the `alpaca_data_with_ml100k.json` file includes a combination of general instruction data from the Stanford Alpaca repository and the preprocessed instruction data from ml_100k_instruct_data.json related to the MovieLens 100K dataset.
 
 Example usage:
 
@@ -87,7 +87,7 @@ python generate.py \
 - Users with multiple GPUs should take a look [here](https://github.com/tloen/alpaca-lora/issues/8#issuecomment-1477490259).
 
 ### Example outputs
-***
+
 **Example 1**:
 
 
@@ -103,8 +103,6 @@ Output:
 
 One recommendation from the MovieLens 100K dataset is The Sixth Sense. The recommendation reason is that it shares similar themes of horror and suspense with Scream and The Craft. Additionally, it has received high ratings from users who enjoyed these movies.
 
-***
-
 **Example 2**:
 
 Instruction:
@@ -119,15 +117,13 @@ Output:
 
 One recommendation from the MovieLens 100K dataset is The Man Who Wasn't There. The recommendation reason is that The Man Who Wasn't There has a similar tone and style to Jackie Brown and In & Out, with a focus on dark humor and quirky characters.
 
-***
-
 
 ### Citation
 
 Please cite the repo if you use the data or code in this repo.
 
 ```
-@misc{alpaca, 
+@misc{alpaca,
   author = {Lei Wang and Zhiqiang Hu and Yihuai Lan and Wanyu Xu and Roy Ka-Wei Lee and Ee-Peng Lim},
   title = {RecAlpaca: Low-Rank LLaMA Instruct-Tuning for Recommendation},
   year = {2023},
