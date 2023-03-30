@@ -123,7 +123,7 @@ One recommendation from the MovieLens 100K dataset is The Man Who Wasn't There. 
 Please cite the repo if you use the data or code in this repo.
 
 ```
-@misc{alpaca,
+@misc{recalpaca,
   author = {Lei Wang and Zhiqiang Hu and Yihuai Lan and Wanyu Xu and Roy Ka-Wei Lee and Ee-Peng Lim},
   title = {RecAlpaca: Low-Rank LLaMA Instruct-Tuning for Recommendation},
   year = {2023},
