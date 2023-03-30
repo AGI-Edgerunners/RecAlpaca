@@ -132,3 +132,7 @@ Please cite the repo if you use the data or code in this repo.
   howpublished = {\url{https://github.com/AGI-Edgerunners/RecAlpaca}},
 }
 ```
+
+### Acknowledgement
+
+This repo benefits from [LLaMA](https://github.com/facebookresearch/llama), [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca), and [Alpaca-Lora](https://github.com/tloen/alpaca-lora). Thanks for their wonderful works.
