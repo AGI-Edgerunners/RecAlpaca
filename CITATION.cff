@@ -1,0 +1,34 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  RecAlpaca: Low-Rank LLaMA Instruct-Tuning for
+  Recommendation
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Lei
+    family-names: Wang
+    email: lei.wang.2019@phdcs.smu.edu.sg
+    name-particle: Singapore
+    affiliation: SMU
+  - given-names: Zhiqiang
+    family-names: Hu
+  - given-names: Yihuai
+    family-names: Lan
+  - given-names: Wanyu
+    family-names: Xu
+  - given-names: Roy Ka-Wei
+    family-names: Lee
+  - given-names: Ee-Peng
+    family-names: Lim
+identifiers:
+  - type: url
+    value: 'https://github.com/AGI-Edgerunners/RecAlpaca'
+repository-code: 'https://github.com/AGI-Edgerunners/RecAlpaca'
+keywords:
+  - Large Language Model
+  - Recommendation
