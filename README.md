@@ -1,7 +1,7 @@
 # RecAlpaca
 # 🎬🦙 RecAlpaca: Low-Rank LLaMA Instruct-Tuning for Recommendation.
 
-This repository contains code for instruction tuning the [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) model using the MovieLens 100K dataset.
+This repository contains code for instruction tuning the [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) model with the MovieLens 100K dataset.
 We provide an Instruct model of similar quality to GPT-3.5 (such as ChatGPT) and the code can be easily extended to the `13b`, `30b`, and `65b` models.
 
 We used the setup, training, and inference procedures described in [Alpaca-LoRA](https://github.com/tloen/alpaca-lora).
@@ -121,12 +121,13 @@ One recommendation from the MovieLens 100K dataset is The Man Who Wasn't There. 
 
 ***
 
+
 ### Citation
 
 Please cite the repo if you use the data or code in this repo.
 
 ```
-@misc{alpaca,
+@misc{alpaca, 
   author = {Lei Wang and Zhiqiang Hu and Yihuai Lan and Wanyu Xu and Roy Ka-Wei Lee and Ee-Peng Lim},
   title = {RecAlpaca: Low-Rank LLaMA Instruct-Tuning for Recommendation},
   year = {2023},
